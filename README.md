@@ -1,7 +1,7 @@
 # Video_Prediction
-**Research on how to predict future video sequences through deep learning methodology by extracting underlying patters from natural video.**
+Research on how to predict future video sequences through deep learning methodology by extracting underlying patters from natural video.
 
-**Research on a more practical and reasonable Video Prediction Modeling and Application based on "SimVP(CVPR2022)" thesis as the 1st project at HYU CVlab.**
+Research on a more practical and reasonable Video Prediction Modeling and Application based on "SimVP(CVPR2022)" thesis as the 1st project at HYU CVlab.
 
 ## Dependencies
 * torch
