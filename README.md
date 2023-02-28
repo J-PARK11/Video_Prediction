@@ -5,10 +5,11 @@ Research on a more practical and reasonable Video Prediction Modeling and Applic
 
 ## Dependencies
 * torch
-* scikit-image=0.16.2
+* scikit-image
 * numpy
 * argparse
 * tqdm
+* CUDA
 
 ## Overview
 
