@@ -15,7 +15,7 @@ Research on a more practical and reasonable Video Prediction Modeling and Applic
 
 * `API/` contains dataloaders & metrics & recoders
 * `main.py` is the executable python file with possible arguments.
-* `model.py` contains the SimVP model.
+* `model.py` contains the model.
 * `exp.py` is the core file for training, validating, and testing pipelines.
 * `utils.py` contains various method & custom function for overall codes.
 * `visualization.py` is a comprehensive file that collects methods related to visualization.
