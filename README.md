@@ -9,7 +9,7 @@ Research on a more practical and reasonable Video Prediction Modeling and Applic
 * numpy
 * argparse
 * tqdm
-* CUDA
+* cuda
 
 ## Overview
 
