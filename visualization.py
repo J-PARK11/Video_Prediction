@@ -5,19 +5,16 @@ import numpy as np
 from IPython.display import Image, display
 from ipywidgets import widgets, Layout, HBox
 
+
 def multi_frame_visualize(dataset, cmap_param='gray'):
     # Construct a figure on which we will visualize the images.
     fig, axes = plt.subplots(4, 5, figsize=(10, 8))
 
     # Plot each of the sequential images for one random data example.
-    data_choice = np.random.choice(range(len(dataset)), size=1)[0]
     for idx, ax in enumerate(axes.flat):
-        ax.imshow(np.squeeze(dataset[data_choice][idx]), cmap=cmap_param)
+        ax.imshow(np.squeeze(dataset[idx]), cmap=cmap_param)
         ax.set_title(f"Frame {idx + 1}")
         ax.axis("off")
-
-    # Print information and display the figure.
-    print(f"Displaying frames for example {data_choice}.")
     plt.show()
 
 
