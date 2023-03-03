@@ -19,3 +19,5 @@ Research on a more practical and reasonable Video Prediction Modeling and Applic
 * `exp.py` is the core file for training, validating, and testing pipelines.
 * `utils.py` contains various method & custom function for overall codes.
 * `visualization.py` is a comprehensive file that collects methods related to visualization.
+
+---------
