@@ -81,3 +81,10 @@ def torch_cuda():
     print('Usuable device :',torch.cuda.device_count())
     print(torch.cuda.get_device_name(0))
     cuda = torch.device('cuda')
+
+# Tensorflow CUDA Connection
+def tensorflow_cuda():
+    from tensorflow.python.client import device_lib
+    import tensorflow as tf
+    tf.config.list_physical_devices('gpu')
+    print(device_lib.list_local_devices())
